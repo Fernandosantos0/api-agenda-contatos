@@ -1,23 +1,29 @@
 {
-  "name": "api-agenda-contatos",
-  "version": "1.0.0",
-  "description": "API REST Full de agenda de contatos",
-  "keywords": [
-    "API"
-  ],
-  "homepage": "https://github.com/Fernandosantos0/api-agenda-contatos#readme",
-  "bugs": {
-    "url": "https://github.com/Fernandosantos0/api-agenda-contatos/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Fernandosantos0/api-agenda-contatos.git"
-  },
-  "license": "ISC",
-  "author": "Fernando Santos Pereira (https://github.com/Fernandosantos0)",
-  "type": "module",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "name": "api-agenda-contatos",
+    "version": "1.0.0",
+    "description": "API REST Full de agenda de contatos",
+    "keywords": [
+        "API"
+    ],
+    "homepage": "https://github.com/Fernandosantos0/api-agenda-contatos#readme",
+    "bugs": {
+        "url": "https://github.com/Fernandosantos0/api-agenda-contatos/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Fernandosantos0/api-agenda-contatos.git"
+    },
+    "license": "ISC",
+    "author": "Fernando Santos Pereira (https://github.com/Fernandosantos0)",
+    "type": "module",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint": "^10.9.0",
+        "globals": "^17.11.0",
+        "prettier": "^3.9.6"
+    }
 }
